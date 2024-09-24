@@ -28,6 +28,7 @@ const Footer = () => {
                     <p className="text-xl font-serif text-white">Rakesh Prajapati: 22BIT0349</p>
                     <p className="text-xl font-serif text-white">Arghya Ghosh: 22BIT0631</p>
                 </div>
+                <div className='flex flex-col mt-9 text-slate-200'>Copyright © 2024 BudgetBuddy</div>
             </div>
         </>
     )

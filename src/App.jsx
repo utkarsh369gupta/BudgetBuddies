@@ -8,10 +8,16 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
-      <Investment></Investment>
-      <About></About>
-      <Footer></Footer>
+      <section id='home'>
+        <Navbar></Navbar>
+        <Investment></Investment>
+      </section>
+      <section id='about'>
+        <About></About>
+      </section>
+      <section id='contact'>
+        <Footer></Footer>
+      </section>
     </>
   )
 }

@@ -9,9 +9,9 @@ const Navbar = () => {
                     <p className="text-3xl font-bold text-white">Budget Buddy</p>
                 </div>
                 <div className='hidden sm:flex gap-x-10 text-xl text-white'>
-                    <p className='hover:text-slate-300 cursor-pointer'>HOME</p>
-                    <p className='hover:text-slate-300 cursor-pointer'>ABOUT US</p>
-                    <p className='hover:text-slate-300 cursor-pointer'>CONTACT</p>
+                    <a href="#home" className='hover:text-slate-300 cursor-pointer'>HOME</a>
+                    <a href="#about" className='hover:text-slate-300 cursor-pointer'>ABOUT US</a>
+                    <a href="#contact" className='hover:text-slate-300 cursor-pointer'>CONTACT</a>
                 </div>
                 <div className='flex gap-4 text-2xl text-white cursor-pointer'>
                     <p className='text-orange-200 hover:text-orange-400'>SignUp or Login</p>
